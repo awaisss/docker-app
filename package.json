@@ -1,0 +1,17 @@
+{
+  "name": "dockerapp",
+  "version": "1.0.0",
+  "description": "a test docker app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "awais ilyas",
+  "license": "ISC"
+}
