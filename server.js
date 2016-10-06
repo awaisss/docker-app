@@ -18,7 +18,7 @@ app.use(function(err, req, res, next) { // error handling defaults
   res.status(500).render('error', { error: err, stack: err.stack });
 });
 
-router.get('/', function(req, res) { res.json({ "Status":"Welcome to api home screen" }) });
+router.get('/', function(req, res) { res.json({ "Info":"Testing Papertrail Error Loggin on AWS Clound" }) });
 
 
 app.use(express.static('static'));
